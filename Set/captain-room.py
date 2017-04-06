@@ -1,0 +1,5 @@
+k , tourists = int(input()), list(map(int,input().split()))
+rooms = set(tourists)
+print(rooms)
+print(sum(tourists))
+print((sum(rooms)*k-sum(tourists))//(k-1))
